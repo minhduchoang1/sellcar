@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport"  content="width=device-width, initial-scale=1.0"> 
+        <title>ALL PRODUCTS - Super car </title>
+        <link rel="stylesheet" href="supercar.css">
+        <link  href="http://font.googleapis.com/css2?
+        family=Poppins:wgh@300;400;500;600;700&display=swap" rel="stylesheet">
+        <link rel='stylesheet prefetch' href='https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css'>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0.css.font-awesome.min.css">
+    </head>
+    <body>
+
+
+
+        
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="carwebsite.html"><img src="https://img.freepik.com/free-vector/super-car-logo-template_7791-8.jpg?size=338&ext=jpg" width="125px"> </a>
+                </div>
+                <nav>
+                    <ul id="menuitems">
+                        <li><a href="carwebsite.html">Home</a></li>
+                        <li><a href="carwebsiteproduct.html">Products</a></li>
+                        <li><a href="">About</a></li>
+                        <li><a href="coming.html">Contact</a></li>
+                        <li><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+                <img src="https://icons-for-free.com/iconfiles/png/512/shopping+cart-131964784617578573.png" width="50px" height="50px">
+                <img src="https://cdn.icon-icons.com/icons2/916/PNG/512/Menu_icon_icon-icons.com_71858.png" class="menu-icon" 
+                onclick="menutoggle()">
+            </div>
+             </div> 
+<!-- cart item details-->
+ <div class="small-container cart-page">
+     <table>
+         <tr>
+             <th>Product</th>
+             <th>Quantity</th>
+             <th>Subtotal</th>
+         </tr>
+         <tr>
+             <td> 
+<div class="cart-info">
+    <img src="https://hips.hearstapps.com/autoweek/assets/s3fs-public/2019-09/lamborghini-sian-1.jpg?resize=980:*">
+    <div>
+        <p>Lamborghini Sian</p>
+        <small> Price:$3.6 million dollar</small>
+        <br>
+        <a href="">Remove</a>
+    </div>
+</div>
+
+             </td>
+             <td> <input type="number" value="1"> </td>
+             <td>$3.6 million dollar</td>
+         </tr>
+         <tr>
+            <td> 
+<div class="cart-info">
+   <img src="https://wallpapersplanet.net/sites/default/files/koenigsegg-agera-rs-wallpapers-34600-8273029.png">
+   <div>
+       <p>Koenisegg Agera R</p>
+       <small> Price:$4 million dollarr</small>
+       <br>
+       <a href="">Remove</a>
+   </div>
+</div>
+
+            </td>
+            <td> <input type="number" value="1"> </td>
+            <td>$4 million dollar</td>
+        </tr>
+        <tr>
+            <td> 
+<div class="cart-info">
+   <img src="https://cms-i.autodaily.vn/du-lieu/2018/08/27/ferrari-488-pista-spider-9.jpg">
+   <div>
+       <p>Ferrari 488 Pista Spider</p>
+       <small> Price:$3 million dollar</small>
+       <br>
+       <a href="">Remove</a>
+   </div>
+</div>
+
+            </td>
+            <td> <input type="number" value="1"> </td>
+            <td>$3 million dollar</td>
+        </tr>
+     </table>
+ <div class="total-price">
+      <table>
+          <tr>
+              <td>Subtotal</td>
+              <td>$10.6 million dollar</td>
+          </tr>
+          <tr>
+            <td>Tax</td>
+            <td>$100 thousand dollar</td>
+        </tr>
+        <tr>
+            <td>Subtotal</td>
+            <td>$10.7 million dollar</td>
+        </tr>
+      </table>
+ </div>
+
+ </div>
+
+       
+
+
+
+<!-- footer-->
+<div class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col-1">
+                <h3> Join With Us by Download our App </h3>
+                <p> Download App for Android and IOS </p>
+                <div class="app-logo">
+                    <img src="https://cleveromaha388.weebly.com/uploads/1/2/6/2/126235678/751759242.png" alt="IOS app">
+                    <img src="https://www.pngkey.com/png/full/223-2231465_google-play-store-app-store-android-download-button.png" alt="Android">
+                </div>
+            </div>
+            <div class="footer-col-2">
+                <img src="https://thumbs.dreamstime.com/b/super-car-club-logo-use-your-needs-like-sticker-etc-you-can-add-text-name-even-edit-107926602.jpg
+                " alt="logo super car">
+                <p> Our purpose is to sustainaly make <br>the pleasure And
+                    benifits of sports car for many customer. </p>
+            </div>
+            <div class="footer-col-3">
+                <h3> Useful Links </h3>
+                <ul>
+                    <li>Coupons</li>
+                    <li>Blog Post</li>
+                    <li>Return Policy</li>
+                    <li>Join Affiliate</li>
+                </ul>
+            </div>
+            <div class="footer-col-4">
+                <h3> Follow us </h3>
+                <ul>
+                    <li>Facebook</li>
+                    <li>Twitter</li>
+                    <li>Instagram</li>
+                    <li>Youtube</li>
+                </ul>
+            </div>
+
+        </div>
+        <hr>
+        <p class="copright">Copyright 2020 - Web Authoring </p>
+    </div>
+</div>
+      <!-- js for toggle menu-->  
+      <script>
+          var menuitems = document.getElementById("menuitems");
+
+          menuitems.style.maxHeight = "0px";
+
+          function menutoggle()
+          { 
+              if(menuitems.style.maxHeight == "0px")
+                  {
+                menuitems.style.maxHeight = "200px";
+               }
+               else
+               {
+                menuitems.style.maxHeight = "0px";
+               }
+          }
+      </script>
+
+
+
+    </body>
+</html>

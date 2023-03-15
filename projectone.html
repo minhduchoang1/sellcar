@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+    <title> Fun with Phonics</title>
+    <script language="javacript">
+        function chngSite(){
+            alert("you are about to be transported to the new site locaion!")
+            location="https://www.bmwusa.com/"
+        }
+    </script>
+</head>
+<body>
+    <CENTER>
+        <IMG SRC="https://standrewsmethodistschool.co.uk/wp-content/uploads/2018/11/image1-1-300x150.jpg" HSPACE=5 VSPACE=5 HEIGHT=64 WIDTH=129>
+        </CENTER>
+        <CENTER><HR Width="75%">
+        </CENTER>
+        <SCRIPT LANGUAGE="JAVASCRIPT">
+            document.bgColor="red"
+            document.bgColor="white"
+            document.bgColor="blue"
+            document.bgColor="white"
+            document.bgColor="green"
+            document.bgColor="white"
+            document.bgColor="blanchedalmond"
+            var tNow = new Date()
+            var tlocDate = tNow.toLocaleString()
+            var tDate = tlocDate.substring(0,10)
+            document.write("<H2><CENTER>Welcome, today is "+tDate+"</CENTER></H2>")
+            var intro1 = "Hi, thanks for visiting our Web site, but we have moved. Please make a note "
+            var intro2 = "of our new URL (www.funphonics.com) and notify the Webmaster about our new "
+            var intro3 = "location. Click<A Href='https://www.bmwusa.com/'> here </A> or wait 15 seconds "
+            var intro4 = "to be moved automatically to our new site."
+            var introMsg = intro1+intro2+intro3+intro4 
+         document.write("<H4><Font Color='firebrick'>"+introMsg+"></H4></FONT>")
+        setTimeout("chngSite()",15000)
+        document.write("<BR><H4><CENTER>This document was last modified "
+            +document.lastModified+"</CENTER></H4>")
+        </SCRIPT>
+    </body>
+</HTML>
+              
